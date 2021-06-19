@@ -1,0 +1,66 @@
+.theme
+{
+    background-color: black;
+}
+
+title
+{
+    color: darkgrey;
+    font-family: 'Lucida Fax';
+    font: 2em;
+    padding: 15px;
+}
+
+body
+{
+    color: darkgrey;
+    font-family: 'Lucida Fax';
+    font: 1em;
+    padding: 15px;
+}
+
+.title-border
+{
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.body-border
+{
+    align-items: left;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1em;
+}
+
+a
+{
+    color: skyblue;
+    font-family: 'Lucida Fax';
+    font: 1em;
+}
+
+a:visited
+{
+    color: royalblue;
+    font-family: 'Lucida Fax';
+    font: 1em;
+}
+
+a:hover
+{
+    color: rgb(120, 205, 235);
+    font-family: 'Lucida Fax';
+    font: 1em;
+}
+
+a:active
+{
+    color: rgb(0, 60, 220);
+    font-family: 'Lucida Fax';
+    font: 1em;
+}
