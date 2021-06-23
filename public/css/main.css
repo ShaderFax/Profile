@@ -1,0 +1,78 @@
+body
+{
+    background-color: rgb(50, 50, 50);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+.title-border
+{
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 8px;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 32px;
+}
+
+.title-text
+{
+    text-align: center;
+}
+
+.about-border
+{
+    margin-left: 300px;
+    margin-top: 32px;
+    align-items: left;
+    background-color: lightgrey;
+    border-radius: 8px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.about-text
+{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.known-lang-border
+{
+    margin-right: 300px;
+    margin-top: 32px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    border-color: red;
+    border-style: solid;
+}
+
+.known-text
+{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* .work-philos
+{
+
+}
+
+.work-philos-text
+{
+
+}
+
+.career-goals
+{
+
+}
+
+.career-goals-text
+{
+
+} */
