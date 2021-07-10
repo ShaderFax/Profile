@@ -1,78 +1,116 @@
 body
 {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(40, 0, 50);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10px;
 }
 
-.title-border
+.topNav
 {
-    align-items: center;
-    background-color: lightgrey;
-    border-radius: 8px;
-    border-color: red;
-    border-style: solid;
-    border-width: 2px;
-    font-size: 32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(70, 0, 100);
+}
+
+.topNav-text
+{
+    text-align: center;
+    color: blue;
+    font: 16px;
+}
+
+
+.title-border
+{   
+    margin: 100px 100px 100px 100px;
+    align-items: center;    
+    background-image:url("../img/regina.jpg");
+    background-size: contain;
+    
 }
 
 .title-text
 {
     text-align: center;
+    color: blue;
+    font-size: 32px;
 }
 
 .about-border
 {
-    margin-left: 300px;
     margin-top: 32px;
-    align-items: left;
-    background-color: lightgrey;
-    border-radius: 8px;
-    border-color: rgb(255, 0, 0);
-    border-style: solid;
-    border-width: 2px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-left: solid blueviolet;
+    border-right: solid blueviolet;
+    background-color:rgb(70, 0, 100);
+    border-width: 4px;
 }
 
 .about-text
 {
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    color: blue;
+    padding: 8px;
 }
 
 .known-lang-border
 {
-    margin-right: 300px;
     margin-top: 32px;
-    background-color: lightgrey;
-    border-radius: 8px;
-    border-color: red;
-    border-style: solid;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-left: solid blueviolet;
+    border-right: solid blueviolet;
+    background-color:rgb(70, 0, 100);
+    border-width: 4px;
 }
 
 .known-text
 {
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    color: blue;
+    padding: 8px;
+}
+
+.h1-border
+{
+    border: solid blueviolet;
+    background-color:rgb(70, 0, 100);
+    border-width: 2px;
+    margin-top: 32px;
+}
+
+h1
+{
+    text-align:left;
+    font-size: 16px;
+    color: blue; 
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-wrap: wrap;
 }
 
 /* .work-philos
 {
-
+    border-left: solid red;
 }
 
 .work-philos-text
 {
-
+    text-align: center;
+    padding: 8px;
 }
 
 .career-goals
 {
-
+    border-left: solid red;
 }
 
 .career-goals-text
 {
-
+    text-align: center;
+    padding: 8px;
 } */
+
