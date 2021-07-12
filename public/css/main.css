@@ -174,7 +174,7 @@ h2
     width: 100%;
     border-radius: 100%;
     clip: rect(0px, 50px, 100px, 0px);
-    background: rgb(179, 0, 255);
+    background: rgb(180, 0, 255);
 }
 
 .circle .left .progress
