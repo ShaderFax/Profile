@@ -10,7 +10,6 @@ body
     margin-right: -1em;
     margin-top: -1em;
     padding: 2em;
-    text-align: center;
     background-color: rgb(70, 0, 100);
 }
 
@@ -19,7 +18,7 @@ body
     text-align: center;
     color: blue;
     padding: 0.5em;
-    font: 2em;
+    font-size: 4em;
 }
 
 
