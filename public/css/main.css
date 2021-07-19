@@ -6,10 +6,10 @@ body
 
 .topNav
 {
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
-    padding: 8px;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -1em;
+    padding: 2em;
     text-align: center;
     background-color: rgb(70, 0, 100);
 }
@@ -18,116 +18,101 @@ body
 {
     text-align: center;
     color: blue;
-    font: 16px;
+    padding: 0.5em;
+    font: 2em;
 }
 
 
 .title-border
 {   
-    margin: 100px 100px 100px 100px;
+    display: flex;
+    margin: 12.5em 12.5em 12.5em 12.5em;
     align-items: center;    
+    align-self: center;
     background-image:url("../img/regina.jpg");
     background-size: contain;
-    
+    height: 87.5em;
+    width: 87.5em;
 }
 
 .title-text
 {
     text-align: center;
     color: blue;
-    font-size: 32px;
+    font-size: 4em;
 }
 
 .about-border
 {
-    margin-top: 32px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-top: 4em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
     border-left: solid blueviolet;
     border-right: solid blueviolet;
     background-color:rgb(70, 0, 100);
-    border-width: 4px;
+    border-width: 1em;
 }
 
 .about-text
 {
     text-align: center;
     color: blue;
-    padding: 8px;
+    padding: 0.5em;
+    font-size: 4em;
 }
 
 .known-lang-border
 {
-    margin-top: 32px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-top: 4em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
     border-left: solid blueviolet;
     border-right: solid blueviolet;
     background-color:rgb(70, 0, 100);
-    border-width: 4px;
+    border-width: 1em;
 }
 
 .known-text
 {
     text-align: center;
     color: blue;
-    padding: 8px;
+    padding: 0.5em;
+    font-size: 4em;
 }
 
 .h1-border
 {
     border: solid blueviolet;
     background-color:rgb(70, 0, 100);
-    border-width: 2px;
-    margin-top: 32px;
+    border-width: 0.25em;
+    margin-top: 4em;
 }
 
 h1
 {
     text-align:left;
-    font-size: 16px;
+    font-size: 3em;
     color: blue; 
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 1em;
+    padding-right: 1em;
     flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2
 {
     text-align: center;
-    font-size: 16px;
+    font-size: 3em;
     color: blue; 
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
     flex-wrap: wrap;
 }
 
-/* .work-philos
-{
-    border-left: solid red;
-}
-
-.work-philos-text
-{
-    text-align: center;
-    padding: 8px;
-}
-
-.career-goals
-{
-    border-left: solid red;
-}
-
-.career-goals-text
-{
-    text-align: center;
-    padding: 8px;
-} */
-
 .circular
 {
-    height: 100px;
-    width: 100px;
+    height: 12.5em;
+    width: 12.5em;
     position: relative;
     transform: scale(1);
 }
@@ -138,9 +123,9 @@ h2
     z-index: 6;
     top: 50%;
     left: 50%;
-    height: 80px;
-    width: 80px;
-    margin: -40px 0 0 -40px;
+    height: 10em;
+    width: 10em;
+    margin: -5em 0 0 -5em;
     background: rgb(70, 0, 100);
     border-radius: 100%;
 }
@@ -152,7 +137,7 @@ h2
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:10;
-    font-size: 1em;
+    font-size: 3em;
     font-weight: 500;
     color:blue;
 }
@@ -164,7 +149,7 @@ h2
     width: 100%;
     background: blueviolet;
     border-radius: 100%;
-    clip: rect(0px, 100px, 100px, 50px);
+    clip: rect(0em, 12.5em, 12.5em, 6.25em);
 }
 
 .circle .bar .progress
@@ -173,7 +158,7 @@ h2
     height: 100%;
     width: 100%;
     border-radius: 100%;
-    clip: rect(0px, 50px, 100px, 0px);
+    clip: rect(0em, 6.25em, 12.5em, 0em);
     background: rgb(180, 0, 255);
 }
 
