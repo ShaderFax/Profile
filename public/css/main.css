@@ -1,24 +1,24 @@
 body
 {
-    background-color: rgb(40, 0, 50);
+    background-color: rgb(10, 10, 10);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .topNav
 {
-    margin-left: -1em;
-    margin-right: -1em;
-    margin-top: -1em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-top: -0.5em;
     padding: 2em;
-    background-color: rgb(70, 0, 100);
+    background-color: rgb(40, 40, 40);
 }
 
 .topNav-text
 {
     text-align: center;
-    color: blue;
-    padding: 0.5em;
-    font-size: 4em;
+    color:  orange;
+    padding: 0.25em;
+    font-size: 2em;
 }
 
 
@@ -37,63 +37,63 @@ body
 .title-text
 {
     text-align: center;
-    color: blue;
-    font-size: 4em;
+    color: orange;
+    font-size: 3em;
 }
 
 .about-border
 {
-    margin-top: 4em;
+    margin-top: 3em;
     margin-left: -0.5em;
     margin-right: -0.5em;
-    border-left: solid blueviolet;
-    border-right: solid blueviolet;
-    background-color:rgb(70, 0, 100);
-    border-width: 1em;
+    border-left: solid rgb(40, 40, 40);
+    border-right: solid rgb(40, 40, 40);
+    background-color:rgb(20, 20, 20);
+    border-width: 0.5em;
 }
 
 .about-text
 {
     text-align: center;
-    color: blue;
+    color: orange;
     padding: 0.5em;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .known-lang-border
 {
-    margin-top: 4em;
+    margin-top: 3em;
     margin-left: -0.5em;
     margin-right: -0.5em;
-    border-left: solid blueviolet;
-    border-right: solid blueviolet;
-    background-color:rgb(70, 0, 100);
-    border-width: 1em;
+    border-left: solid rgb(40, 40, 40);
+    border-right: solid rgb(40, 40, 40);
+    background-color:rgb(20, 20, 20);
+    border-width: 0.5em;
 }
 
 .known-text
 {
     text-align: center;
-    color: blue;
+    color: orange;
     padding: 0.5em;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .h1-border
 {
-    border: solid blueviolet;
-    background-color:rgb(70, 0, 100);
+    border: solid rgb(40, 40, 40);
+    background-color:rgb(20, 20, 20);
     border-width: 0.25em;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 h1
 {
     text-align:left;
-    font-size: 3em;
-    color: blue; 
-    padding-left: 1em;
-    padding-right: 1em;
+    font-size: 2em;
+    color: orange; 
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     flex-wrap: wrap;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -101,8 +101,8 @@ h1
 h2
 {
     text-align: center;
-    font-size: 3em;
-    color: blue; 
+    font-size: 2em;
+    color: orange; 
     padding-left: 0.25em;
     padding-right: 0.25em;
     flex-wrap: wrap;
@@ -125,7 +125,7 @@ h2
     height: 10em;
     width: 10em;
     margin: -5em 0 0 -5em;
-    background: rgb(70, 0, 100);
+    background: black;
     border-radius: 100%;
 }
 
@@ -138,7 +138,7 @@ h2
     z-index:10;
     font-size: 3em;
     font-weight: 500;
-    color:blue;
+    color:rgb(180, 80, 0);
 }
 
 .circular .bar
@@ -146,7 +146,7 @@ h2
     position: absolute;
     height: 100%;
     width: 100%;
-    background: blueviolet;
+    background: rgb(255, 100, 0);
     border-radius: 100%;
     clip: rect(0em, 12.5em, 12.5em, 6.25em);
 }
@@ -158,7 +158,7 @@ h2
     width: 100%;
     border-radius: 100%;
     clip: rect(0em, 6.25em, 12.5em, 0em);
-    background: rgb(180, 0, 255);
+    background: rgb(255, 160, 0);
 }
 
 .circle .left .progress
