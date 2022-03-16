@@ -30,15 +30,17 @@ body
     align-self: center;
     background-image:url("../img/regina.jpg");
     background-size: contain;
-    height: 87.5em;
+    height: 45em;
     width: 87.5em;
 }
 
 .title-text
 {
+    margin: 11em;
     text-align: center;
-    color: orange;
+    color: black;
     font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .about-border
@@ -110,8 +112,8 @@ h2
 
 .circular
 {
-    height: 12.5em;
-    width: 12.5em;
+    height: 6.25em;
+    width: 6.25em;
     position: relative;
     transform: scale(1);
 }
@@ -119,11 +121,11 @@ h2
 .circular .inner
 {
     position: absolute;
-    z-index: 6;
-    top: 50%;
-    left: 50%;
-    height: 10em;
-    width: 10em;
+    z-index: 5;
+    top: 92%;
+    left: 92%;
+    height: 4.75em;
+    width: 4.75em;
     margin: -5em 0 0 -5em;
     background: black;
     border-radius: 100%;
@@ -148,7 +150,7 @@ h2
     width: 100%;
     background: rgb(255, 100, 0);
     border-radius: 100%;
-    clip: rect(0em, 12.5em, 12.5em, 6.25em);
+    clip: rect(0em, 6.25em, 6.25em, 3.125em);
 }
 
 .circle .bar .progress
@@ -157,7 +159,7 @@ h2
     height: 100%;
     width: 100%;
     border-radius: 100%;
-    clip: rect(0em, 6.25em, 12.5em, 0em);
+    clip: rect(0em, 6.25em, 3.125em, 0em);
     background: rgb(255, 160, 0);
 }
 
@@ -187,6 +189,6 @@ h2
 
 @keyframes right{
     100%{
-        transform: rotate(30deg);
+        transform: rotate(90deg);
     }
 }
