@@ -25,22 +25,21 @@ body
 .title-border
 {   
     display: flex;
-    margin: 12.5em 12.5em 12.5em 12.5em;
-    align-items: center;    
     align-self: center;
     background-image:url("../img/regina.jpg");
-    background-size: contain;
-    height: 45em;
-    width: 87.5em;
+    background-size: cover;
+    height: 85%;
+    width: 100%;
 }
 
 .title-text
 {
-    margin: 11em;
-    text-align: center;
+    margin: 10em;
+    text-align: middle;
+    margin-right: 10em;
     color: black;
     font-size: 3em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .about-border
