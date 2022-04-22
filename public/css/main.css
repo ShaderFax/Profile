@@ -33,7 +33,7 @@ body
 {   
     display: flex;
     flex-grow: 1;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     background-image:url("../img/regina.jpg");
     background-size: cover;
@@ -42,8 +42,9 @@ body
 
 .title-text
 {
+    margin-top: 2em;
     color: black;
-    font-size: 3em;
+    font-size: 5em;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
