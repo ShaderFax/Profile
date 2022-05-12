@@ -115,7 +115,7 @@ h2
     flex-wrap: wrap;
 }
 
-.circular
+/* .circular
 {
     height: 6.25em;
     width: 6.25em;
@@ -164,7 +164,7 @@ h2
     height: 100%;
     width: 100%;
     border-radius: 100%;
-    clip: rect(0em, 6.25em, 3.125em, 0em);
+    clip: rect(0em, 3.125em, 3.125em, 0em);
     background: rgb(255, 160, 0);
 }
 
@@ -196,4 +196,4 @@ h2
     100%{
         transform: rotate(90deg);
     }
-}
+} */
