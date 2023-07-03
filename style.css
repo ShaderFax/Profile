@@ -402,6 +402,18 @@ h1 {
     color: #ffffff;
 }
 
+.bestb4_service__card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%), url('/images/android-chrome-192x192.png');
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+
 .services__card:nth-child(2) {
     background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%), url('/images/pic4.jpg');
